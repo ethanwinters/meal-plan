@@ -86,3 +86,11 @@ a:hover{text-decoration:underline}
 .full-card table tr:last-child td{border-bottom:none}
 
 .notes-box{background:#faf9f5;border:1px solid #e2dfd6;border-left:3px solid #c8b99a;border-radius:4px;padding:.65rem .9rem;font-size:.8rem;color:#555;margin-bottom:.9rem;line-height:1.6}
+
+/* Staples */
+.staples-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.9rem;margin-top:1rem}
+.staples-card{background:#fff;border:1px solid #e2dfd6;border-radius:8px;padding:1rem 1.1rem}
+.staples-card h3{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#999;margin-bottom:.55rem}
+.staples-card ul{list-style:none;font-size:.83rem;color:#333;line-height:1.75}
+.staples-card ul li::before{content:'· ';color:#bbb}
+.staples-note{font-size:.8rem;color:#777;background:#fff;border:1px solid #e2dfd6;border-radius:6px;padding:.7rem 1rem;margin-bottom:1.1rem;line-height:1.6}
